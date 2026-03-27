@@ -275,7 +275,8 @@ export default function TextToPhoto() {
             Make the resolution get worse — blur, pixelate, or both
           </p>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div>
+            {/* <div className="grid grid-cols-1 sm:grid-cols-2 gap-6"> */}
             {/* Blur */}
             <div>
               <label className="block text-xs text-slate-500 mb-2 font-medium">
@@ -315,7 +316,7 @@ export default function TextToPhoto() {
             </div>
 
             {/* Pixelation */}
-            <div>
+            {/* <div>
               <label className="block text-xs text-slate-500 mb-2 font-medium">
                 Pixelate —{" "}
                 <span className="text-slate-800 font-semibold">
@@ -350,7 +351,7 @@ export default function TextToPhoto() {
                   </button>
                 ))}
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 
